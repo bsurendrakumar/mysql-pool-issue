@@ -1,0 +1,30 @@
+{
+  "name": "mysql-pool-issue",
+  "version": "1.0.0",
+  "description": "Created to describe an error we are facing while using MySQL driver pooling.",
+  "keywords": [
+    "express.js",
+    "mysqljs"
+  ],
+  "author": "Osmosys",
+  "contributors": [
+    "<abijeet.p@osmosys.asia> (http://osmosys.asia)",
+    "<surendra.b@osmosys.asia> (http://osmosys.asia)"
+  ],
+  "license": "-",
+  "bugs": {
+    "url": "https://github.com/bsurendrakumar/mysql-pool-issue/issues/"
+  },
+  "dependencies": {
+    "express": "4.12.3",
+    "mysql": "2.11.1",
+    "winston": "1.0.0",
+    "node-uuid": "1.4.7",
+    "async": "2.0.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node app/server.js"
+  }
+}
